@@ -1,0 +1,40 @@
+body {
+  margin: 0 auto;
+  max-width: 50em;
+  font-family: "Helvetica", "Arial", sans-serif;
+  background-color: #f2f2f2;
+  color: #333333;
+  line-height: 1.5;
+}
+
+.header {
+  background-color: #ffffff;
+  padding: 1em;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  flex: 1;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+}
+
+.nav ul li {
+  margin-right: 1em;
+}
+
+.content {
+  padding: 2em;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+}
+
+.footer {
+  padding: 1em;
+  background-color: #ffffff;
+  text-align: center;
+}
